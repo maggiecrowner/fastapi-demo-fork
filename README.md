@@ -8,7 +8,7 @@ The easiest way to start working is to append `https://gitpod.io/#` before the U
 
 > [**https://gitpod.io/#https://github.com/maggiecrowner/fastapi-demo-fork**](https://gitpod.io/#https://github.com/maggiecrowner/fastapi-demo-fork)
 
-From within Gitpod, you have a full IDE to work with the code. You can run commands in the terminal, preview the application, and git add/commit/push.
+From within Gitpod, you have a full IDE to work with the code. You can run commands in the terminal, preview the application by running the `./preview.sh` script, and normal `git` add/commit/push commands.
 
 ### Local
 
