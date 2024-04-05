@@ -38,7 +38,7 @@ def github_user_repos(user):
 
 @app.get("/albums")
 def get_albums():
-    db = MySQLdb.connect(host=DBHOST, user=DBUSER, passwd=DBPASS, db=DB)
+    db = MySQLdb.connect(host="ds2002db.cqee4iwdcaph.us-east-1.rds.amazonaws.com", user=DBUSER, passwd=DBPASS, db=DB)
     c = db.cursor(MySQLdb.cursors.DictCursor)
     c.execute("""SELECT * FROM albums ORDER BY name""")
     results = c.fetchall()
